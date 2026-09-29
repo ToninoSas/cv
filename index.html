@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Curriculum Vitae</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Foglio di stile pulito ed elegante -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+
+  <style>
+    /* Personalizza font e larghezza massima */
+    body, .markdown-section {
+      font-family: 'Inter', -apple-system, sans-serif !important;
+      max-width: 800px;
+      margin: 0 auto;
+      color: #1f2937;
+    }
+    .markdown-section h1 { color: #111827; }
+    .markdown-section h2 { color: #1e40af; border-bottom: 2px solid #e5e7eb; }
+    .markdown-section a { color: #1e40af; }
+  </style>
+</head>
+<body>
+  <div id="app">Caricamento in corso...</div>
+  <script>
+    window.$docsify = {
+      homepage: 'README.md', // Legge direttamente il tuo file Markdown
+      loadNavbar: false,
+      loadSidebar: false     // Solo pagina singola, stile CV pulito
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
