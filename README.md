@@ -19,9 +19,11 @@ I am a Master’s student in Computer Science at University of Bari, interested 
 *   **Database & Cloud:** MySQL, SQLite, Firebase.
 *   **Tools & OS:** Git, Postman, Linux, VS Code.
 *   **Certifications:** ICDL/ECDL (European Computer Driving License).
-    
+
+
 ### PROJECTS
 **LLM Agent Interpretability - Classifier for detecting hallucinations in tool calling** ([_Github_](https://github.com/ToninoSas/mcpsuite))
+
 *   I trained and evaluated lightweight classifiers (MLP) on the internal state of Qwen3.5-9B and LLama-3.1-8B-Instruct while they performed inference on tool calling tasks from the BFCL benchmark. The goal was to understand if tool calling hallucinations could be predicted. It was demonstrated, with excellent results (AUROC up to 0.93), that uncertainty encoding within the model occurs in the intermediate layers, making it possible to predict these hallucinations using a specialized guard rail system.
 *   Technique used: _probing_
 *   Allowed me to understand how Transformers work
