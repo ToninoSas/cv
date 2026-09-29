@@ -1,0 +1,70 @@
+{
+  "basics": {
+    "name": "Antonio Prencipe",
+    "label": "Master's student in Computer Science",
+    "image": "",
+    "email": "antonioprencipe2004@gmail.com",
+    "phone": "+39 3923452499",
+    "url": "https://tuosito.com",
+    "summary": "Breve riassunto del tuo profilo, obiettivi e competenze principali.",
+    "location": {
+      "city": "La Tua Città",
+      "countryCode": "IT",
+      "region": "La Tua Regione"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "tuonome",
+        "url": "https://www.linkedin.com/in/tuonome"
+      },
+      {
+        "network": "GitHub",
+        "username": "tuousername",
+        "url": "https://github.com/tuousername"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Nome Azienda",
+      "position": "Ruolo Svolto",
+      "url": "https://azienda.com",
+      "startDate": "2023-01-01",
+      "endDate": "2024-06-01",
+      "summary": "Descrizione generale delle mansioni e delle tecnologie utilizzate.",
+      "highlights": [
+        "Risultato o responsabilità chiave 1",
+        "Risultato o responsabilità chiave 2"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Università / Istituto",
+      "url": "https://universita.it",
+      "area": "Corso di Laurea / Indirizzo",
+      "studyType": "Laurea Triennale / Magistrale",
+      "startDate": "2019-10-01",
+      "endDate": "2022-10-01",
+      "score": "110/110"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Sviluppo & Linguaggi",
+      "level": "Avanzato",
+      "keywords": ["Python", "JavaScript", "SQL", "Git"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Italiano",
+      "fluency": "Madrelingua"
+    },
+    {
+      "language": "Inglese",
+      "fluency": "Professionale"
+    }
+  ]
+}
