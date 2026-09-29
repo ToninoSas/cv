@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build:html": "resumed render resume.json -t jsonresume-theme-even -o public/index.html",
-    "build:pdf": "resumed pdf resume.json -t jsonresume-theme-even -o public/CV.pdf"
+    "build:html": "resumed render resume.json -t jsonresume-theme-even -o public/index.html"
   },
   "devDependencies": {
-    "jsonresume-theme-even": "^1.0.0",
-    "puppeteer": "^22.0.0",
+    "jsonresume-theme-even": "latest",
     "resumed": "^3.0.0"
   }
 }

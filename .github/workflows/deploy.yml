@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -32,15 +32,8 @@ jobs:
           mkdir -p public
           npm install
 
-      - name: Install system dependencies for PDF generation
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libnss3 libatk-bridge2.0-0 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libgbm1 libasound2 libpangocairo-1.0-0 libpango-1.0-0 fonts-liberation
-
-      - name: Generate HTML and PDF
-        run: |
-          npm run build:html
-          npm run build:pdf
+      - name: Build HTML
+        run: npm run build:html
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
