@@ -8,36 +8,43 @@
     "url": "https://tuosito.com",
     "summary": "Breve riassunto del tuo profilo, obiettivi e competenze principali.",
     "location": {
-      "city": "La Tua Città",
+      "city": "Bari",
       "countryCode": "IT",
-      "region": "La Tua Regione"
+      "region": "Apulia"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "tuonome",
-        "url": "https://www.linkedin.com/in/tuonome"
+        "username": "Antonio Prencipe",
+        "url": "https://www.linkedin.com/in/antonio-prencipe"
       },
       {
         "network": "GitHub",
-        "username": "tuousername",
-        "url": "https://github.com/tuousername"
+        "username": "ToninoSas",
+        "url": "https://github.com/ToninoSas"
       }
     ]
   },
-  "work": [
+  "projects": [
     {
-      "name": "Nome Azienda",
-      "position": "Ruolo Svolto",
-      "url": "https://azienda.com",
-      "startDate": "2023-01-01",
-      "endDate": "2024-06-01",
-      "summary": "Descrizione generale delle mansioni e delle tecnologie utilizzate.",
+      "name": "Nome del Progetto",
+      "description": "Breve descrizione del problema che risolve e del suo scopo.",
       "highlights": [
-        "Risultato o responsabilità chiave 1",
-        "Risultato o responsabilità chiave 2"
-      ]
+        "Caratteristica o traguardo 1 (es. Ottimizzate prestazioni del 30%)",
+        "Implementata architettura a microservizi con Docker"
+      ],
+      "keywords": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "startDate": "2024-01-01",
+      "endDate": "2024-04-01",
+      "url": "https://github.com/tuousername/progetto"
     }
+  ],
+  "work": [
   ],
   "education": [
     {
