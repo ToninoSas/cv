@@ -5,8 +5,7 @@
     "image": "",
     "email": "antonioprencipe2004@gmail.com",
     "phone": "+39 3923452499",
-    "url": "https://tuosito.com",
-    "summary": "Breve riassunto del tuo profilo, obiettivi e competenze principali.",
+    "summary": "I am a Master’s student in Computer Science at University of Bari, interested in backend, DevOps and AI. Thanks to university and self-directed study, I have acquired diverse experience over the years through personal and academic projects, which have led me to develop technical skills and strong problem-solving abilities.",
     "location": {
       "city": "Bari",
       "countryCode": "IT",
@@ -25,38 +24,47 @@
       }
     ]
   },
+  "education": [
+    {
+      "institution": "University of Bari",
+      "url": "https://www.uniba.it",
+      "area": "Computer Science Arteficial Intelligence",
+      "studyType": "Master's Degree",
+      "startDate": "2026",
+      "endDate": "",
+      "score": ""
+    },
+    {
+      "institution": "University of Bari",
+      "url": "https://www.uniba.it",
+      "area": "Computer Science and Software Design Technologies",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2023",
+      "endDate": "2026",
+      "score": "110 cum Laude"
+    }
+  ],
   "projects": [
     {
-      "name": "Nome del Progetto",
-      "description": "Breve descrizione del problema che risolve e del suo scopo.",
+      "name": "LLM Agent Interpretability - Classifier for detecting hallucinations in tool calling",
+      "description": "I trained and evaluated lightweight classifiers (MLP) on the internal state of Qwen3.5-9B and LLama-3.1-8B-Instruct while they performed inference on tool calling tasks from the BFCL benchmark. The goal was to understand if tool calling hallucinations could be predicted.",
       "highlights": [
-        "Caratteristica o traguardo 1 (es. Ottimizzate prestazioni del 30%)",
-        "Implementata architettura a microservizi con Docker"
+        "AUROC up to 0.93",
+        "It was demonstrated that uncertainty encoding within the model occurs in the intermediate layers, making it possible to predict these hallucinations using a specialized guard rail system."
       ],
       "keywords": [
-        "Python",
-        "FastAPI",
-        "PostgreSQL",
-        "Docker"
+        "Probing",
+        "Transformers",
+        "Hidden states",
       ],
       "startDate": "2024-01-01",
       "endDate": "2024-04-01",
-      "url": "https://github.com/tuousername/progetto"
+      "url": "https://github.com/ToninoSas/progetto"
     }
   ],
   "work": [
   ],
-  "education": [
-    {
-      "institution": "Università / Istituto",
-      "url": "https://universita.it",
-      "area": "Corso di Laurea / Indirizzo",
-      "studyType": "Laurea Triennale / Magistrale",
-      "startDate": "2019-10-01",
-      "endDate": "2022-10-01",
-      "score": "110/110"
-    }
-  ],
+  
   "skills": [
     {
       "name": "Sviluppo & Linguaggi",
