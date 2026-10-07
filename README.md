@@ -7,7 +7,7 @@ Bari, Italy | +39 3923452499 | antonioprencipe2004@gmail.com | [LinkedIn](http:/
 I am a Master’s student in Computer Science at University of Bari, interested in backend, DevOps and AI. Thanks to university and self-directed study, I have acquired diverse experience over the years through personal and academic projects, which have led me to develop technical skills and strong problem-solving abilities.
 
 ### EDUCATION
-**Master’s Degree in Computer Science Arteficial Intelligence** _University of Bari Aldo Moro_ | 2026 - (in course)
+**Master’s Degree in Computer Science Arteficial Intelligence** _University of Bari Aldo Moro_ | _Grade: 110L_ | 2026 - (in course)
 
 **Bachelor's Degree in Computer Science and Software Design Technologies** _University of Bari Aldo Moro_ | 2023 – July 16 2026
 
